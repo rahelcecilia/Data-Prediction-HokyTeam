@@ -23,18 +23,16 @@ types and the quantity of data available.
 
 ### Data Preprocessing
 Within this stage, there are several steps, including:
-<li><strong>Data Cleansing</strong></li>
 <br>
+#### 1. Data Cleansing
 Data cleansing aims to check the training and prediction data for
 identifying and addressing issues such as missing data, duplicates, or
 anomalies.
 <br>
-
-dataprediction=pd.read_csv('/content/Data_Prediction.csv', sep=';') <br>
+```
+dataprediction=pd.read_csv('/content/Data_Prediction.csv', sep=';') 
 datatrain=pd.read_csv('/content/DataTrain_Preliminary.csv', sep=';')
-
-
-<br>
-Use this code to show the short review from the all data. <br>
+```
+Use these codes to show the short review from the all data. <br>
 ```dataprediction``` ```datatrain```
 
